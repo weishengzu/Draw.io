@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T09:38:27.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="inXnqocimcYMkRpoakFW" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T10:59:34.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="5qdg2u6MoXpXs3nSJFei" version="24.1.0" type="github">
   <diagram name="第 1 页" id="ROWNbDEXqqBWKoR7fFpO">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,13 +32,28 @@
           <mxGeometry x="880" y="525" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NVcDMvNec6-EQihZazwp-13" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;沙盒内进程更新&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="330" y="610" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NVcDMvNec6-EQihZazwp-14" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;沙盒内进程控制&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="440" y="610" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NVcDMvNec6-EQihZazwp-17" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;共享文件夹&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="NVcDMvNec6-EQihZazwp-14" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;沙盒内进程管控&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="550" y="610" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-17" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;共享文件夹&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="990" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-18" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;远程命令控制&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="880" y="610" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-19" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;沙盒配置/功能控制&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-20" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;沙盒心跳维持/管理&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="770" y="610" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-21" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;沙盒通信&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="660" y="610" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-22" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;云桌面控制&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="990" y="610" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
