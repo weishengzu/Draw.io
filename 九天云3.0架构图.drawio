@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T08:59:38.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.1.0" etag="vDt229QVfm857FzPJWjP" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T09:38:27.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="inXnqocimcYMkRpoakFW" version="24.1.0" type="github">
   <diagram name="第 1 页" id="ROWNbDEXqqBWKoR7fFpO">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NVcDMvNec6-EQihZazwp-2" value="&lt;h1 style=&quot;font-size: 120px;&quot;&gt;&lt;font&gt;云桌面&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#004C99;labelBackgroundColor=none;textShadow=0;textOpacity=20;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="1100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="300" y="510" width="810" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-5" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;沙盒管理进程&lt;br&gt;JTSandBoxCtrl&lt;/b&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="90" y="510" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-7" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;沙盒创建&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="330" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-8" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;沙盒删除&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="440" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-9" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;沙盒修改&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="550" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-10" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;沙盒检索&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="660" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-11" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;信息上报&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="770" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-12" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;MQ通知接收&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="880" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-13" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;沙盒内进程更新&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-14" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;沙盒内进程控制&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="440" y="610" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVcDMvNec6-EQihZazwp-17" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;共享文件夹&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="550" y="610" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
