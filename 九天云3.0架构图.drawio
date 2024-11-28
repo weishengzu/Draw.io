@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T07:56:10.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="O6fv5VhxnPHzLxS6KnV6" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="ROWNbDEXqqBWKoR7fFpO">
     <mxGraphModel dx="1434" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="NVcDMvNec6-EQihZazwp-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="300" y="510" width="810" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="NVcDMvNec6-EQihZazwp-5" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;沙盒管理进程&lt;br&gt;JTSandBoxCtrl&lt;/b&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+        <mxCell id="NVcDMvNec6-EQihZazwp-5" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;九天云Manage进程&lt;br&gt;（JTSandBoxCtrl）&lt;/b&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="90" y="510" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="NVcDMvNec6-EQihZazwp-7" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;沙盒创建&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
@@ -67,7 +67,7 @@
         <mxCell id="NVcDMvNec6-EQihZazwp-29" value="&lt;h2&gt;沙盒A&lt;/h2&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=default;swimlaneLine=0;glass=0;rounded=0;swimlaneFillColor=#67AB9F;" parent="1" vertex="1">
           <mxGeometry x="110" y="120" width="440" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="NVcDMvNec6-EQihZazwp-43" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;CloudAgent企微控制进程&lt;/font&gt;&lt;/b&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="NVcDMvNec6-EQihZazwp-29" vertex="1">
+        <mxCell id="NVcDMvNec6-EQihZazwp-43" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;九天云Slave&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;（&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;CloudAgent&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;）&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="NVcDMvNec6-EQihZazwp-29" vertex="1">
           <mxGeometry x="10" y="90" width="90" height="140" as="geometry" />
         </mxCell>
         <mxCell id="NVcDMvNec6-EQihZazwp-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="NVcDMvNec6-EQihZazwp-29" vertex="1">
@@ -100,7 +100,7 @@
         <mxCell id="NVcDMvNec6-EQihZazwp-42" value="&lt;h2&gt;企业微信&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="NVcDMvNec6-EQihZazwp-30" vertex="1">
           <mxGeometry x="22" y="30" width="408" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NVcDMvNec6-EQihZazwp-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;CloudAgent企微控制进程&lt;/font&gt;&lt;/b&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="NVcDMvNec6-EQihZazwp-30" vertex="1">
+        <mxCell id="NVcDMvNec6-EQihZazwp-44" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;九天云Slave&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;（&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;CloudAgent&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;）&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="NVcDMvNec6-EQihZazwp-30" vertex="1">
           <mxGeometry x="12" y="90" width="90" height="140" as="geometry" />
         </mxCell>
         <mxCell id="NVcDMvNec6-EQihZazwp-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="NVcDMvNec6-EQihZazwp-30" vertex="1">
