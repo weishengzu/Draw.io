@@ -254,7 +254,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B8uQokDbP8Djm6eRlEMS-24" value="SendMsgService" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="100" y="870" width="670" height="220" as="geometry" />
+          <mxGeometry x="100" y="870" width="670" height="230" as="geometry" />
         </mxCell>
         <mxCell id="B8uQokDbP8Djm6eRlEMS-25" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
           <mxGeometry x="14.75" y="100" width="399.5" height="60" as="geometry" />
@@ -282,6 +282,15 @@
         </mxCell>
         <mxCell id="B8uQokDbP8Djm6eRlEMS-39" value="队头" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
           <mxGeometry x="370" y="117.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-41" value="逆向SDk" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
+          <mxGeometry x="490" y="80" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-42" value="发送文本、图片、视频等消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-41">
+          <mxGeometry x="-10" y="38" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-43" value="顺序弹出" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
+          <mxGeometry x="424.25" y="102.5" width="55.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
