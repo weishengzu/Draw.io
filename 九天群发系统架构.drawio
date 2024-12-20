@@ -228,6 +228,33 @@
         <mxCell id="Jcjnsndz9WuinGCy42PS-32" value="消息内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-28">
           <mxGeometry y="128" width="144.75" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="B8uQokDbP8Djm6eRlEMS-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="115" as="sourcePoint" />
+            <mxPoint x="50" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-24" value="SendMsgService" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="100" y="850" width="670" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-25" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
+          <mxGeometry x="20" y="100" width="399.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-26" value="MsgItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;strokeColor=#6c8ebf;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
+          <mxGeometry x="70" y="115" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-30" value="MsgItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;strokeColor=#6c8ebf;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
+          <mxGeometry x="130" y="115" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-31" value="MsgItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;strokeColor=#6c8ebf;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
+          <mxGeometry x="190" y="115" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-32" value="MsgItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;strokeColor=#6c8ebf;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
+          <mxGeometry x="250" y="115" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-33" value="MsgItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;strokeColor=#6c8ebf;" vertex="1" parent="B8uQokDbP8Djm6eRlEMS-24">
+          <mxGeometry x="310.5" y="115" width="49" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
