@@ -125,9 +125,14 @@
         <mxCell id="Jcjnsndz9WuinGCy42PS-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-1">
           <mxGeometry x="85.5" y="31.25" width="39" height="48.75" as="geometry" />
         </mxCell>
-        <mxCell id="B8uQokDbP8Djm6eRlEMS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jcjnsndz9WuinGCy42PS-3">
+        <mxCell id="B8uQokDbP8Djm6eRlEMS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="680" as="targetPoint" />
+            <mxPoint x="760" y="658" as="targetPoint" />
+            <mxPoint x="750" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="860" y="360" />
+              <mxPoint x="860" y="658" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Jcjnsndz9WuinGCy42PS-3" value="MessageTaskManager" style="swimlane;" vertex="1" parent="1">
