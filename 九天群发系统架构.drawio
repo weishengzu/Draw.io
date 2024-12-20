@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.9.2">
-  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.9.2" pages="2">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="群发流程泳道图">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -110,6 +110,74 @@
               <mxPoint x="783" y="545" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rxb7pHSNeuEpt_22N2F3" name="客户端消息模块关联图">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jcjnsndz9WuinGCy42PS-1" value="服务端" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="229" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-2" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-1">
+          <mxGeometry x="85.5" y="31.25" width="39" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-3" value="MessageTaskManager" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="100" y="270" width="650" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Jcjnsndz9WuinGCy42PS-3" source="Jcjnsndz9WuinGCy42PS-9" target="Jcjnsndz9WuinGCy42PS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-9" value="拉取任务详情" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-3">
+          <mxGeometry x="10" y="65" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Jcjnsndz9WuinGCy42PS-3" source="Jcjnsndz9WuinGCy42PS-10" target="Jcjnsndz9WuinGCy42PS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-10" value="根据任务属性，组建唯一id并持久化存储" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-3">
+          <mxGeometry x="160" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Jcjnsndz9WuinGCy42PS-3" source="Jcjnsndz9WuinGCy42PS-12" target="Jcjnsndz9WuinGCy42PS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-12" value="根据任务属性，获取发送策略、优先级等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-3">
+          <mxGeometry x="320" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-14" value="构建MsgItem消息对象" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-3">
+          <mxGeometry x="480" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-5" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;狂飙任务&lt;/span&gt;&lt;/div&gt;" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="61" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-6" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sop任务&lt;/span&gt;&lt;/div&gt;" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="61" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;在线聊天&lt;/span&gt;&lt;/div&gt;" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;align=right;" vertex="1" parent="1">
+          <mxGeometry x="458" y="130" width="61" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360.5" y="690" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-28" value="MsgItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="355.25" y="520" width="139.5" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-30" value="任务ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-28">
+          <mxGeometry y="26" width="139.5" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-31" value="任务类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-28">
+          <mxGeometry y="50" width="139.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-34" value="发送间隔" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-28">
+          <mxGeometry y="76" width="139.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-33" value="优先级" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-28">
+          <mxGeometry y="102" width="139.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Jcjnsndz9WuinGCy42PS-32" value="消息内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Jcjnsndz9WuinGCy42PS-28">
+          <mxGeometry y="128" width="139.5" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
