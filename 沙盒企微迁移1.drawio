@@ -58,7 +58,7 @@
           <mxGeometry x="85" y="40" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nVbXTicEFVuqo1gQbMPG-4" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" parent="1" vertex="1">
-          <mxGeometry x="333.5" y="140" width="53" height="59" as="geometry" />
+          <mxGeometry x="361" y="180" width="53" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
